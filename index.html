@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Monitor team example | Team example</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light p-default">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <span class="navbar-text mx-auto navbar-center d-inline d-sm-none">
+                <img src="./img/p-03.png" alt="#">
+                Borat Sagdiyev
+            </span>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <span class="navbar-text navbar-left">
+                    Anna palautetta
+                </span>
+                <span class="navbar-text mx-auto navbar-center d-none d-sm-inline">
+                    <img src="./img/borat.jpg" alt="#">
+                    Borat Sagdiyev
+                </span>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown navbar-right d-none d-sm-inline">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Borat Sagdiyev
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+
+                    <a class="dropdown-item d-inline d-sm-none" href="#">Action</a>
+                    <a class="dropdown-item d-inline d-sm-none" href="#">Another action</a>
+                    <a class="dropdown-item d-inline d-sm-none" href="#">Something else here</a>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-links p-default">
+            <ul class="">
+                <li><a href="#">My team</a></li>
+                <li><a href="#">My own feedback</a></li>
+                <li class="active"><a href="#">Monitor other teams</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+            <a href="#" class="header-links-btn">Team Settings</a>
+        </div>
+    </header>
+
+    <!-- <div class="scroll" style="height: 300px; font-size: 5rem; text-align: center;">SCROLL</div> -->
+
+    <main>
+        <div class="section-top-header m-default">
+            <a href="#" class="subheader">
+              <i class="material-icons">keyboard_arrow_left</i>
+              <span>Back</span>
+            </a>
+            <div class="d-flex justify-content-between align-items-center">
+              <h2><span>Team</span> Sales EMEA</h2>
+    
+              <div class="dropdown custom-dd-link d-flex align-items-center">
+                <a href="#" class="custom-dd-btn" id="dropdownMenuButton01" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Sort by
+                    <i class="material-icons align-middle">keyboard_arrow_down</i>
+                </a> 
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton01">
+                    <a class="dropdown-item" href="#">Export</a>
+                    <a class="dropdown-item" href="#">Option I</a>
+                    <a class="dropdown-item" href="#">Option II</a>
+                </div>
+            </div>
+            </div>
+          </div>
+        <!-- HORIZONTAL GRAPH CARDS -->
+        <section class="section-top p-default">
+
+            <div class="graph-card grap-card-1 bg-white graph-team-marketing">
+                <div class="graph-card-header">
+                    <h4>TEAM SOFTWARE</h4>
+                    <h3>Kuinka hyvin tässä</h3>
+                    <h3>tiimissä viihdytään</h3>
+                </div>
+                <div class="graph-card-body">
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-red" style="height: 30%;"></div>
+                        <div class="bar-info">TAM</div>
+                    </div>
+                    <div class="bar d-none d-lg-inline-block">
+                        <div class="bar-fill bar-fill-red" style="height: 38%;"></div>
+                        <div class="bar-info">HEL</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-orange" style="height: 45%;"></div>
+                        <div class="bar-info">MAA</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 49%;"></div>
+                        <div class="bar-info">HUN</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 70%;"></div>
+                        <div class="bar-info">TOU</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 60%;"></div>
+                        <div class="bar-info">KES</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 55%;"></div>
+                        <div class="bar-info">HEI</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 65%;"></div>
+                        <div class="bar-info">ELO</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="graph-card grap-card-2 bg-white graph-team-marketing">
+                <div class="graph-card-header">
+                    <h4>TEAM SOFTWARE</h4>
+                    <h3>Kuinka tyytyväisiä</h3>
+                    <h3>ollaan esimieheen</h3>
+                </div>
+                <div class="graph-card-body">
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-red" style="height: 30%;"></div>
+                        <div class="bar-info">TAM</div>
+                    </div>
+                    <div class="bar d-none d-lg-inline-block">
+                        <div class="bar-fill bar-fill-red" style="height: 38%;"></div>
+                        <div class="bar-info">HEL</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-orange" style="height: 45%;"></div>
+                        <div class="bar-info">MAA</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 49%;"></div>
+                        <div class="bar-info">HUN</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 70%;"></div>
+                        <div class="bar-info">TOU</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 60%;"></div>
+                        <div class="bar-info">KES</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 55%;"></div>
+                        <div class="bar-info">HEI</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 65%;"></div>
+                        <div class="bar-info">ELO</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="graph-card grap-card-3 bg-white graph-team-marketing">
+                <div class="graph-card-header">
+                    <h4>TEAM SOFTWARE</h4>
+                    <h3>Kuinka hyvin tämä</h3>
+                    <h3>tiimi toimii</h3>
+                </div>
+                <div class="graph-card-body">
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-red" style="height: 30%;"></div>
+                        <div class="bar-info">TAM</div>
+                    </div>
+                    <div class="bar d-none d-lg-inline-block">
+                        <div class="bar-fill bar-fill-red" style="height: 38%;"></div>
+                        <div class="bar-info">HEL</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-orange" style="height: 45%;"></div>
+                        <div class="bar-info">MAA</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 49%;"></div>
+                        <div class="bar-info">HUN</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 70%;"></div>
+                        <div class="bar-info">TOU</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 60%;"></div>
+                        <div class="bar-info">KES</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 55%;"></div>
+                        <div class="bar-info">HEI</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-green" style="height: 65%;"></div>
+                        <div class="bar-info">ELO</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="people">
+                <div class="card-header bg-white d-flex justify-content-between">
+                    <div class="card-header-text">
+                        <h4>TEAM SOFTWARE</h4>
+                        <h3>Keneen tässä tiimissä ollaan</h3>
+                        <h3>tyytyväisiä, keneen ei.</h3>
+                    </div>
+                    <span class="add-btn"></span>
+                </div>
+                <ul class="list-group-flush p-0 m-0">
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-01.png" alt="#">
+                        <p class="name m-0 flex-fill">Ollie Stewart</p class="m-0">
+                        <p class="prof m-0 text-start">Software Architect</p>
+                        <div class="text-right"><a href="#" class="btn-custom btn-custom-green text-center">Great</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-02.png" alt="#">
+                        <p class="name m-0 flex-fill">Madge Casey</p class="m-0">
+                        <p class="prof m-0 text-start">Junior Python Developer</p>
+                        <div><a href="#" class="btn-custom btn-custom-green text-center">Good</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-03.png" alt="#">
+                        <p class="name m-0 flex-fill">Gilbert Mack</p class="m-0">
+                        <p class="prof m-0 text-start">Senior Python Developer</p>
+                        <div><a href="#" class="btn-custom btn-custom-green text-center">Good</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center active">
+                        <img class="rounded-circle" src="./img/p-04.png" alt="#">
+                        <p class="name m-0 flex-fill">Jesse Gregory</p class="m-0">
+                        <p class="prof m-0 text-start">Junior Javascript Developer</p>
+                        <div><a href="#" class="btn-custom btn-custom-green text-center">Good</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-05.png" alt="#">
+                        <p class="name m-0 flex-fill">Annie Kelly</p class="m-0">
+                        <p class="prof m-0 text-start">Senior Javascript Developer</p>
+                        <div><a href="#" class="btn-custom btn-custom-green text-center">Good</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-06.png" alt="#">
+                        <p class="name m-0 flex-fill">Edwin Love</p class="m-0">
+                        <p class="prof m-0 text-start">Senior Javascript Developer</p>
+                        <div><a href="#" class="btn-custom btn-custom-green text-center">Good</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-07.png" alt="#">
+                        <p class="name m-0 flex-fill">Floyd Roberson</p class="m-0">
+                        <p class="prof m-0 text-start">Software Architect</p>
+                        <div><a href="#" class="btn-custom btn-custom-green text-center">Good</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-08.png" alt="#">
+                        <p class="name m-0 flex-fill">Kate Lindsey</p class="m-0">
+                        <p class="prof m-0 text-start">Software Architect</p>
+                        <div><a href="#" class="btn-custom btn-custom-green text-center">Good</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-09.png" alt="#">
+                        <p class="name m-0 flex-fill">Ernest Wright</p class="m-0">
+                        <p class="prof m-0 text-start">Bootstrap Developer</p>
+                        <div><a href="#" class="btn-custom btn-custom-orange text-center">Ok</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-10.png" alt="#">
+                        <p class="name m-0 flex-fill">Jeff Copeland</p class="m-0">
+                        <p class="prof m-0 text-start">Software Architect</p>
+                        <div><a href="#" class="btn-custom btn-custom-orange text-center">Ok</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-10.png" alt="#">
+                        <p class="name m-0 flex-fill">Jeff Copeland</p class="m-0">
+                        <p class="prof m-0 text-start">Software Architect</p>
+                        <div><a href="#" class="btn-custom btn-custom-orange text-center">Ok</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-11.png" alt="#">
+                        <p class="name m-0 flex-fill">Alan Yates</p class="m-0">
+                        <p class="prof m-0 text-start">Junior Python Developer</p>
+                        <div><a href="#" class="btn-custom btn-custom-red text-center">Bad</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-12.png" alt="#">
+                        <p class="name m-0 flex-fill">Jose Thornton</p class="m-0">
+                        <p class="prof m-0 text-start">Senior Javascript Developer</p>
+                        <div><a href="#" class="btn-custom btn-custom-red text-center">Bad</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-11.png" alt="#">
+                        <p class="name m-0 flex-fill">Alan Yates</p class="m-0">
+                        <p class="prof m-0 text-start">Junior Python Developer</p>
+                        <div><a href="#" class="btn-custom btn-custom-red text-center">Bad</a></div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <img class="rounded-circle" src="./img/p-12.png" alt="#">
+                        <p class="name m-0 flex-fill">Jose Thornton</p class="m-0">
+                        <p class="prof m-0 text-start">Senior Javascript Developer</p>
+                        <div><a href="#" class="btn-custom btn-custom-red text-center">Bad</a></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="overview">
+                <div class="graph-card bg-white graph-team-marketing">
+                    <div class="graph-card-header">
+                        <div class="options">
+                            <a href="#" class="active">KK</a>
+                            <span class="divider">I</span>
+                            <a href="#">VK</a>
+                        </div>
+                        <h3>Jess Gregory</h3>
+                        <h3>viikko kehitys</h3>
+                    </div>
+                    <div class="graph-card-body">
+                        <div class="bar">
+                            <div class="bar-fill bar-fill-red" style="height: 30%;"></div>
+                            <div class="bar-info">TAM</div>
+                        </div>
+                        <div class="bar d-none d-lg-inline-block">
+                            <div class="bar-fill bar-fill-red" style="height: 38%;"></div>
+                            <div class="bar-info">HEL</div>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-fill bar-fill-orange" style="height: 45%;"></div>
+                            <div class="bar-info">MAA</div>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-fill bar-fill-green" style="height: 49%;"></div>
+                            <div class="bar-info">HUN</div>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-fill bar-fill-green" style="height: 70%;"></div>
+                            <div class="bar-info">TOU</div>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-fill bar-fill-green" style="height: 60%;"></div>
+                            <div class="bar-info">KES</div>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-fill bar-fill-green" style="height: 55%;"></div>
+                            <div class="bar-info">HEI</div>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-fill bar-fill-green" style="height: 65%;"></div>
+                            <div class="bar-info">ELO</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overview-bottom">
+                    <div class="overview-bottom-top">
+                        <div class="overview-bottom-top-first">
+                            <h3>Good</h3>
+                            <p>This week <span class="plus">+14%</span></p>
+                        </div>
+    
+                        <div class="overview-bottom-top-second">
+                            <h3>Good</h3>
+                            <p>Last week <span class="minus">-10%</span></p>
+                        </div>
+                    </div>
+
+                    <div class="overview-bottom-6">
+                        <p>PDF raportti
+                            <span>Tiimin 6kk kehityksestä</span>
+                        </p>
+                        <a href="#">TÄSTÄ</a>
+                    </div>
+
+                    <div class="overview-bottom-12">
+                        <p>PDF raportti
+                            <span>Tiimin 6kk kehityksestä</span>
+                        </p>
+                        <a href="#">TÄSTÄ</a>
+                    </div>
+
+                    <a href="#" class="overview-bottom-text">Poista käyttäjä</a>
+                </div>
+            </div>
+
+            <div class="score"></div>
+        </section>
+
+        <div class="footer p-default">
+            <a href="#">
+                <i class="material-icons">keyboard_arrow_left</i>
+                Back to overview</a>
+        </div>
+    </main>
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
